@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url(themes/card_theme.css);
 
 :root {
     box-sizing: border-box;
@@ -108,6 +109,17 @@ header {
 
 .card__descr > p {
     margin-bottom: .5em;
+}
+
+.card__descr a{
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+.card__descr a:hover,
+.card__descr a:active,
+.card__descr a:focus{
+    color: #3B3B3B;
 }
 
 footer {
